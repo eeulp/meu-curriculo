@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+*{
+    box-sizing: content-box;
+    margin: 0;
+}
+
+.corpo{
+    font-family: "Inconsolata", monospace;
+ 
+}
+
+.meunome {
+    text-align: center;
+    margin-top: 3rem;
+    border-bottom: solid 2px;
+    font-family: "Inconsolata", monospace;  
+}
+
+.meunome:hover{
+    font-size: 30px;
+    transform: scale(1.1);
+}
+
+.dadospessoais{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Inconsolata", monospace;
+    border-bottom: solid 2px;
+    margin-bottom: 20px;
+    margin-top:18px;
+}
+
+.dadospessoais:hover{
+    font-weight: bold;
+    transform: scale(1.1);
+}
+
+.titulo1{
+    font-size: 23px;
+    font-weight: bolder;
+    color: black;
+    padding-left: 10px;
+    position: relative;
+}
+
+.titulo1::after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: rgb(7, 55, 82);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.titulo1:hover::after{
+    width: 100%;
+    font-size: 30px;
+    
+}
+
+.titulo2{
+    font-size: 23px;
+    font-weight: bolder;
+    color: black;
+    padding-left: 10px;
+    position: relative;
+}
+
+.titulo2::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: rgb(7, 55, 82);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.titulo2:hover::after{
+    width: 100%;
+    font-size: 30px;
+}
+
+.titulo3{
+    font-size: 23px;
+    font-weight: bolder;
+    color: black;
+    padding-left: 10px;
+    position: relative;
+}
+
+.titulo3::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: rgb(7, 55, 82);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.titulo3:hover::after{
+    width: 100%;
+    font-size: 30px;
+}
+
+.titulo4{
+    font-size: 23px;
+    font-weight: bolder;
+    color: black;
+    padding-left: 10px;
+    position: relative;
+}
+
+.titulo4::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: rgb(7, 55, 82);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.titulo4:hover::after{
+    width: 100%;
+    font-size: 30px;
+
+}
+
+.titulo5{
+    font-size: 23px;
+    font-weight: bolder;
+    color: black;
+    padding-left: 10px;
+    position: relative;
+}
+
+.titulo5::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: rgb(7, 55, 82);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.titulo5:hover::after{
+    width: 100%;
+    font-size: 30px;
+}
+
+h5{
+    background: #72d5d8;
+    font-family: "Inconsolata", monospace;
+}
+
+a{
+    te
+}
